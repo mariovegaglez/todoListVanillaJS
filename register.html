@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 class="title">Please register here</h1>
+
+    <div class="register-form">
+        <form action="/submit">
+            <div class="">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="">
+                <label for="repeat-password">Repeat Password:</label>
+                <input type="password" id="repeat-password" name="repeat-password" required>
+            </div>
+            <div class="register-button">
+                <a href="/login.html">Back to login</a>
+                <input type="submit" value="Register">
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>
